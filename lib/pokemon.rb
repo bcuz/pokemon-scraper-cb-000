@@ -16,6 +16,8 @@ class Pokemon
     from = db.execute("select * from pokemon where id = #{id}")
     # p from
     # use indexes?
+
+    # expected 0 ?? 
     self.new(from[0], from[1], from[2], db)
     # # binding.pry
     # x
