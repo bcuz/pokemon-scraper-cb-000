@@ -19,16 +19,16 @@ class Pokemon
     db.execute("insert into pokemon (name, type) values (?, ?)", name, type)
   end
   #
-  # def self.find(id, db)
-  #   from = db.execute("select * from pokemon where id = #{id}")
-  #   # p from
-  #   # use indexes?
-  #
-  #   # expected 0 ?? dont think i was getting that error b4
-  #   self.new(id: from[0], name: from[1], type: from[2], db: db)
-  #   # x = self.new(from[0], from[1], from[2], db)
-  #   # # binding.pry
-  #   # x
-  #
-  # end
+  def self.find(id, db)
+    from = db.execute("select * from pokemon where id = #{id}")
+    # p from
+    # use indexes?
+
+    # expected 0 ?? dont think i was getting that error b4
+    self.new(id: from[0], name: from[1], type: from[2], db: db)
+    # x = self.new(from[0], from[1], from[2], db)
+    # # binding.pry
+    # x
+
+  end
 end
