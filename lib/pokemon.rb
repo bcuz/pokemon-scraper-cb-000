@@ -35,7 +35,7 @@ class Pokemon
     from_id = from[0][0]
     from_name = from[0][1]
     from_type = from[0][2]
-    self.new(id: , name: , type: , db)
+    self.new(id: from_id, name: from_name, type: from_type, db)
     # self.new(id: from[0][0], name: from[0][1], type: from[0][2], db)
     # x
 
