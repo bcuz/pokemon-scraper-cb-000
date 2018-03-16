@@ -25,6 +25,7 @@ describe "Pokemon" do
       Pokemon.save("Pikachu", "electric", @db)
 
       pikachu_from_db = @db.execute("SELECT * FROM pokemon WHERE name = 'Pikachu'")
+      # edited
       expect(pikachu_from_db).to eq([[1, "Pikachu", "electric", 60]])
     end
   end
