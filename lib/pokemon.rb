@@ -15,7 +15,7 @@ class Pokemon
     # p from
 
     # use indexes?
-    return self.new(from[0], from[1], from[2], from[3])
+    self.new(from[0], from[1], from[2], from[3])
 
   end
 end
