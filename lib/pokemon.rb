@@ -21,7 +21,7 @@ class Pokemon
   #
   def self.find(id, db)
     from = db.execute("select * from pokemon where id = #{id}")
-    p from[0]
+    p from
     # use indexes?
 
     # expected 0 ?? dont think i was getting that error b4
