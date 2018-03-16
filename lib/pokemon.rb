@@ -14,5 +14,8 @@ class Pokemon
     from = db.execute("select * from pokemon where id = #{id}")
     p from
 
+    # use indexes?
+    
+
   end
 end
