@@ -32,9 +32,9 @@ class Pokemon
     # x
 
     # not sure why this isnt working now
-    id = from[0][0]
-    name = from[0][1]
-    type = from[0][2]
+    from_id = from[0][0]
+    from_name = from[0][1]
+    from_type = from[0][2]
     self.new(id: , name: , type: , db)
     # self.new(id: from[0][0], name: from[0][1], type: from[0][2], db)
     # x
