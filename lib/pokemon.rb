@@ -35,4 +35,8 @@ class Pokemon
     # x
 
   end
+
+  def alter_hp
+
+  end
 end
