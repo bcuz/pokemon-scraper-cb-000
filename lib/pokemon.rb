@@ -20,7 +20,7 @@ class Pokemon
   end
   #
   def self.find(id, db)
-    from = db.execute("select * from pokemon where id = #{5}")
+    from = db.execute("select * from pokemon where id = #{id}")
     p from
     # use indexes?
 
