@@ -39,7 +39,7 @@ class Pokemon
   def alter_hp(hp, db)
     # how do i refer to this pokemon, tho?
     # whatever the id instance var is
-    p hp
+    # p hp
     db.execute("update pokemon set hp = #{hp} where id = #{@id}")
 
   end
