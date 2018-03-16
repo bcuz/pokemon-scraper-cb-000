@@ -26,7 +26,7 @@ class Pokemon
 
     # expected 0 ?? dont think i was getting that error b4
     x = self.new(id: from[0], name: from[1], type: from[2], db: db)
-    # # binding.pry
+    binding.pry
     x
     # x = self.new(from[0], from[1], from[2], db)
     # x
