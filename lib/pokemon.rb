@@ -32,8 +32,8 @@ class Pokemon
     # x
 
     # not sure why this isnt working now
-    id =
-    self.new(id: from[0][0], name: from[0][1], type: from[0][2], db)
+    id = from[0][0]
+    self.new(id: , name: from[0][1], type: from[0][2], db)
     # self.new(id: from[0][0], name: from[0][1], type: from[0][2], db)
     # x
 
