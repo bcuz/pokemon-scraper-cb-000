@@ -1,5 +1,5 @@
 class Pokemon
-  attr_reader :id, :name, :type, :db
+  attr_reader :id, :name, :type, :db, :hp
   # dont understand these keyword
 
 # is initialized with keyword arguments of name, type and db
