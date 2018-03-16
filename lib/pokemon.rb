@@ -19,6 +19,7 @@ class Pokemon
     # use indexes?
     x = self.new(id: from[0], name: from[1], type: from[2], db: from[3])
     # binding.pry
+    x
 
   end
 end
