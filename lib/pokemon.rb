@@ -5,10 +5,10 @@ class Pokemon
 # is initialized with keyword arguments of name, type and db
 
   def initialize(id:, name:, type:, db:)
-    @id = id
-    @name = name
-    @type = type
-    @db = db
+    # @id = id
+    # @name = name
+    # @type = type
+    # @db = db
   end
   # def initialize(options = {})
   #   @id = options.fetch(:bar, 'default')
