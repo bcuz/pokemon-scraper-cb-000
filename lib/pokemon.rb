@@ -1,7 +1,7 @@
 class Pokemon
   attr_reader :id, :name, :type, :db
 
-  # dont understand keyword bs
+  # dont understand these keyword
   def initialize(id:, name:, type:, db:)
     # @id = id
     # @name = name
