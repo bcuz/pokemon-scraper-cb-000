@@ -7,6 +7,6 @@ class Pokemon
   end
 
   def save
-    
+    @db.execute()
   end
 end
