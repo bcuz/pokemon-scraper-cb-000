@@ -9,4 +9,8 @@ class Pokemon
   def self.save(name, type, db)
     db.execute("insert into pokemon (name, type) values (?, ?)", name, type)
   end
+
+  def self.find(id, db)
+
+  end
 end
