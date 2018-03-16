@@ -15,7 +15,7 @@ class Pokemon
     # p from
 
     # use indexes?
-    self.new(id: from[0], name: from[1], from[2], from[3])
+    self.new(id: from[0], name: from[1], type: from[2], db:[3])
 
   end
 end
