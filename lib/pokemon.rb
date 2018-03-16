@@ -10,12 +10,6 @@ class Pokemon
     @type = type
     @db = db
   end
-  # def initialize(options = {})
-  #   @id = options.fetch(:bar, 'default')
-  #   @name = options.fetch(:bar, 'default')
-  #   @type = options.fetch(:bar, 'default')
-  #   @db = options.fetch(:bar, 'default')
-  # end
 
   def self.save(name, type, db)
     db.execute("insert into pokemon (name, type) values (?, ?)", name, type)
