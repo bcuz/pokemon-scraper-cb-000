@@ -26,8 +26,8 @@ describe "Pokemon" do
 
       pikachu_from_db = @db.execute("SELECT * FROM pokemon WHERE name = 'Pikachu'")
       # edited
-      expect(pikachu_from_db).to eq([[1, "Pikachu", "electric", 60]])
-      # expect(pikachu_from_db).to eq([[1, "Pikachu", "electric"]])
+      # expect(pikachu_from_db).to eq([[1, "Pikachu", "electric", 60]])
+      expect(pikachu_from_db).to eq([[1, "Pikachu", "electric"]])
     end
   end
 
