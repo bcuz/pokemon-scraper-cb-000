@@ -18,7 +18,7 @@ class Pokemon
     # use indexes?
 
     # expected 0 ?? dont think i was getting that error b4
-    self.new(from[0], from[1], from[2], db)
+    # self.new(from[0], from[1], from[2], db)
     # # binding.pry
     # x
 
