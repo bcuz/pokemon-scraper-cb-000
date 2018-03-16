@@ -28,7 +28,7 @@ class Pokemon
     # x = self.new(id: from[0], name: from[1], type: from[2], db: db)
     # binding.pry
     # x
-    self.new(from[0], from[1], from[2], db)
+    # self.new(from[0], from[1], from[2], db)
     # x
 
   end
