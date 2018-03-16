@@ -8,7 +8,7 @@ class Pokemon
   #   # @type = type
   #   # @db = db
   # end
-  def initialize(id:, name:, type:, db:)
+  def initialize(options = {})
     # @id = id
     # @name = name
     # @type = type
