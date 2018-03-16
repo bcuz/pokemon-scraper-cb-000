@@ -4,7 +4,7 @@ class Pokemon
 
 # is initialized with keyword arguments of name, type and db
 
-  def initialize(id:, name:, type:, db:)
+  def initialize(id:, name:, type:, hp: db:)
     @id = id
     @name = name
     @type = type
